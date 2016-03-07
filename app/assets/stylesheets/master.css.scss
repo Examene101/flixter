@@ -7,12 +7,45 @@
     box-shadow: 0px 1px 3px #2a2a2a;
     background:url("congruent_outline.png")
 }
-
+// styleing brand font, logo
 .navbar-inverse a.navbar-brand {
 	font-family: "futura-pt",sans-serif;
 	font-weight: 100;
 	color: white;
 
 }
+// background image
+.hero{
+	background: url("hero.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+	 height: 370px;
+	 box-shadow: 0px 3px 8px #2a2a2a;
+}
+//remove white spaces
+h1, h2, h3, h4, h5, h6, .navbar{
+	margin:0;
+}
+//box
+.transparent {
+	 background:rgba(0,0,0, 0.5);
+	color:white;
+}
+.transparent h1 {
+	font-family: "futura-pt",sans-serif;
+	font-weight: 100;
+	text-shadow: rgba(0,0,0,0.95) 4px 4px;
+} 
 
+.transparent h2 {
+	font-family: "futura-pt",sans-serif;
+	font-weight: 200;
+	text-shadow: rgba(0,0,0,0.95) 4px 4px;
+}
+//button style
+.btn {
+  border-radius:0;
+}
 
