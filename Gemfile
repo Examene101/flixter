@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 gem "devise", ">= 3.2.4"
 
+gem "simple_form"
+
 gem 'rails_12factor', group: :production
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
