@@ -4,6 +4,8 @@ gem "fog", "~> 1.3.1"
 
 gem "figaro"
 
+gem "mini_magick", "~> 4.3.1"
+
 gem "simple_form"
 
 #image video uploader
