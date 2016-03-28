@@ -8,6 +8,9 @@ gem "mini_magick", "~> 4.3.1"
 
 gem "simple_form"
 
+#storage library
+gem "carrierwave-aws"
+
 #image video uploader
 gem "carrierwave"
 
