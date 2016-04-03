@@ -4,6 +4,9 @@ gem "fog", "~> 1.3.1"
 
 gem "figaro"
 
+# sorting model
+gem "ranked-model"
+
 #allow card processing
 gem "stripe"
 

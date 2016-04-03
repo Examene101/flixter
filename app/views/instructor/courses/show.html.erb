@@ -15,8 +15,10 @@
     <li>
     	<%= section.title %>
       <%= link_to "New Lesson", new_instructor_section_lesson_path(section),class: 'pull-right btn btn-primary btn-xs' %>
-      <br class="clr" /> 
-        <% section.lessons.each do |lesson| %>
+      <br class="clr" />
+      
+      <ul> 
+        <% section.lessons.rank(:row_order).each do |lesson| %>
           <li>
           <b><%= lesson.title %></b>
            -
@@ -25,6 +27,7 @@
           <% end %>
         </ul>
       <br class="clr" />
+    
     </li>
     <% end %>
   </div>
