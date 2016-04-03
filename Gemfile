@@ -4,6 +4,9 @@ gem "fog", "~> 1.3.1"
 
 gem "figaro"
 
+#allow card processing
+gem "stripe"
+
 gem "mini_magick", "~> 4.3.1"
 
 gem "simple_form"
