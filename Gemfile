@@ -4,6 +4,10 @@ gem "fog", "~> 1.3.1"
 
 gem "figaro"
 
+#jQuery UI
+gem "jquery-ui-rails"
+
+
 # sorting model
 gem "ranked-model"
 
