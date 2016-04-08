@@ -36,6 +36,8 @@
         <!-- display if user signed in -->
         <ul class="nav navbar-nav navbar-right">
           <% if user_signed_in? %>
+          <!-- link to dashboard is user signed in -->
+          <li><%=link_to "My DashBoard", dashboard_path %></li>
           <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
           <% else %>
           <li><%= link_to 'Log in', new_user_session_path %></li> 
