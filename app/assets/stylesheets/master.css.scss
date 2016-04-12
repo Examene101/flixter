@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6, .navbar{
 }
 //box
 .transparent {
-	 background:rgba(0,0,0, 0.5);
+	background:rgba(0,0,0, 0.5);
 	color:white;
 }
 .transparent h1 {
@@ -55,7 +55,7 @@ body {
 }
 
 .booyah-box {
- background: #50a3a2; 
+background: #50a3a2; 
 background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
 background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
 background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
@@ -92,7 +92,7 @@ padding:20px
 
 .section {
   border: 1px solid;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  border-color:#e4e4e4 #bebebd #bebebd #e4e4e4;
   padding: 20px;
 }
 
@@ -144,6 +144,10 @@ ul .header .glyphicon{
 }
 .lessons li p {
   margin:0;
+}
+
+.h2 {
+  color:white;
 }
 
 
